@@ -32,6 +32,37 @@ body{
     
     zoom: 0.7;
 }
+
+html {
+      scrollbar-width: normal;
+      scrollbar-color: #777 #555;
+    }
+
+    html::-webkit-scrollbar {
+      width: 1vw;
+    }
+
+    html::-webkit-scrollbar-thumb {
+      background-color: #461D2C;
+    }
+
+    html::-webkit-scrollbar-thumb:hover {
+      background-color: #000;
+    }
+
+    html::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+
+    html::-webkit-scrollbar-track:hover {
+      background-color: transparent;
+    }
+
+
+
+
+
+
 .event-calender{
 /*    align-content: center;*/
     text-align: center;
