@@ -738,9 +738,10 @@ svg {
 
 
 .i-g{
-    text-align: center;
-    align-content: center;
-    padding-left: 20%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 /*############## sakura leaf end #############*/
 
